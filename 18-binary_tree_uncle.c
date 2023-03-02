@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_uncle- Finds parent level Pair @ same parent depth 
+ * binary_tree_uncle- Finds parent level Pair @ same parent depth
  * @node: node to find parent level Pair
  *
  * Return: node_pair pointer if exists else NULL
@@ -14,8 +14,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 
 	if (!node->parent)
 		return (NULL);
-
-        return (binary_tree_sibling(node->parent));
+	return (binary_tree_sibling(node->parent));
 }
 
 /**
