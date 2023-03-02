@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_height- Traverses left,right,root subtrees the max height
+ * binary_tree_height- Traverses left,right,root subtrees returns the max height
  * @tree: tree root node to be traversed
  * Return: Integer value representing height of tree
  */
